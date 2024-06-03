@@ -5,7 +5,7 @@ export default function MainTitle() {
   const [text, helper] = useTypewriter({
     words: ["Build scalable apps, your way."],
     loop: 1,
-    typeSpeed: 25,
+    typeSpeed: 15,
   });
 
   const { isDone } = helper;
