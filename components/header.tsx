@@ -24,9 +24,7 @@ export function Header() {
             <rect x="10" y="12" width="4" height="4" />
           </svg>
         </Link>
-        <Link href="/about" className="text-black">
-          About
-        </Link>
+        <Link href="https://www.github.com/softmaxer">Github</Link>
       </div>
     </header>
   );
