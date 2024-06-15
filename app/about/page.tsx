@@ -12,9 +12,9 @@ export default function AboutPage() {
       <div className="flex flex-row max-w-screen-sm items-center">
         <Image src={"/dp.png"} alt="profile_photo" height={150} width={150} />
         <p className=" font-semibold">{aboutDesc}</p>
-
-        <Link href={"mailto:sriram.vadlamani@proton.me"}>Email</Link>
       </div>
+
+      <Link href={"mailto:sriram.vadlamani@proton.me"}>Email</Link>
     </div>
   );
 }
