@@ -9,7 +9,6 @@ export default function RedirectTo({ page, destination }: PageInfo) {
       <a
         href={destination}
         className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:underline"
-        target="_blank"
         rel="noopener noreferrer"
       >
         <h2 className="mb-3 text-2xl font-semibold text-center inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
