@@ -11,7 +11,7 @@ export default function Home() {
           Sriram Vadlamani
         </p>
       </div>
-      <div className="flex flex-row  items-center justify-evenly">
+      <div className="flex flex-row  gap-32 items-center justify-evenly">
         <ProfileButton action="Download CV" path="/cv.pdf" />
         <ProfileButton
           action="Hire me"
