@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="flex flex-row justify-evenly">
           <Sidebar />
-          <main className="flex min-h-screen flex-col items-center justify-between p-24">
+          <main className="flex min-h-screen flex-col items-center justify-between p-72">
             {children}
           </main>
         </div>
