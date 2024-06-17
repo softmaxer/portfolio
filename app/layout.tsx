@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="grid  justify-evenly">
+        <div className="flex flex-row justify-evenly">
           <Sidebar />
           <main className="flex min-h-screen flex-col items-center justify-between p-24">
             {children}
