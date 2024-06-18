@@ -5,7 +5,7 @@ export default function About() {
     <>
       <div className="flex flex-col justify-between">
         <div className="flex flex-col justify-between gap-20">
-          <h1 className="text-orange-300 text-7xl">About me</h1>
+          <h1 className="text-orange-300 text-7xl text-center">About me</h1>
           <p className="text-xl lg:text-left text-center">
             I am an AI engineer / developper and I believe that good software
             should be simple and intuitive, both to develop and to use. I am

@@ -4,9 +4,7 @@ export default function Projects() {
   return (
     <>
       <div className="flex flex-col">
-        <p className="text-7xl lg:text-left  text-orange-300 text-center">
-          My projects
-        </p>
+        <h1 className="text-orange-300 text-7xl">My projects</h1>
       </div>
       <div className="flex flex-col">
         <ProjectCard
