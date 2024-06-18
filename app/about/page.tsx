@@ -37,9 +37,9 @@ export default function About() {
             <div className="flex flex-col items-center">
               <h3 className="text-orange-300 text-3xl">Frameworks I use</h3>
               <div className="flex -space-x-0.5 rtl:space-x-reverse">
-                <TechItem name="NextJS" logoPath="/icons/nextjs.png" />
-                <TechItem name="React" logoPath="/icons/react.png" />
-                <TechItem name="Pytorch" logoPath="/icons/pytorch.png" />
+                <TechItem altName="NextJS" logoPath="/icons/nextjs.png" />
+                <TechItem altName="React" logoPath="/icons/react.png" />
+                <TechItem altName="Pytorch" logoPath="/icons/pytorch.png" />
               </div>
             </div>
           </div>
