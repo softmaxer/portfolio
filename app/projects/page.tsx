@@ -32,7 +32,7 @@ export default function Projects() {
         <ProjectCard
           name="Portfolio"
           description="This website!"
-          link="softmaxer.github.io"
+          link="https://www.softmaxer.github.io"
           image="/icons/profile_pic.png"
         />
       </div>
