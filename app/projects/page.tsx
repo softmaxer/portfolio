@@ -35,6 +35,12 @@ export default function Projects() {
           link="https://softmaxer.github.io/"
           image="/icons/profile_pic.png"
         />
+        <ProjectCard
+          name="Pedal"
+          description="An AI driven audio editor for music and podcasts"
+          link="https://github.com/HarmonicHackers/PedalAI"
+          image="/cards/pedal.png"
+        />
       </div>
     </div>
   );
